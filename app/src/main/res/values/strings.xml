@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyTrackingDriver</string>
+    <string name="find_passenger">Find Passenger</string>
+    <string name="stop_find">Stop Find</string>
+    <string name="register">Register</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="have_an_account_sign_in">Have an account? Sign in</string>
+    <string name="sign_in">Sign In</string>
+    <string name="welcome_back_in_our_application">Welcome back in our application</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="not_registered_yet_create_an_account">Not registered yet? Create an Account</string>
+    <string name="sitapok">SITAPOK DRIVER</string>
+    <string name="sitapokDesc">Aplikasi khusus untuk pengemudi angkot</string>
+    <string name="get_started">Get Started</string>
+    <string name="edit_account">Edit Account</string>
+</resources>
