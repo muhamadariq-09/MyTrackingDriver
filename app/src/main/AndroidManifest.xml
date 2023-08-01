@@ -22,10 +22,10 @@
 
 
         <activity
-            android:name=".EditAccountActivity"
+            android:name=".activity.EditAccountActivity"
             android:exported="false" />
         <activity
-            android:name=".AccountDetailActivity"
+            android:name=".activity.AccountDetailActivity"
             android:exported="false" />
 
         <meta-data
@@ -33,16 +33,16 @@
             android:value="AIzaSyAzdJ-wZ_LwfEFfwM35ltswVCUoeP1dMaA" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".activity.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".activity.RegisterActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

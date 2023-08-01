@@ -1,4 +1,4 @@
-package com.example.mytrackingdriver
+package com.example.mytrackingdriver.models
 
 data class Driver(
     var uid: String? = null,

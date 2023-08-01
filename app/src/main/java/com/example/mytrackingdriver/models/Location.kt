@@ -1,4 +1,4 @@
-package com.example.mytrackingdriver
+package com.example.mytrackingdriver.models
 
 import com.google.firebase.database.IgnoreExtraProperties
 

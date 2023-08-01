@@ -1,4 +1,4 @@
-package com.example.mytrackingdriver
+package com.example.mytrackingdriver.activity
 
 import android.content.Intent
 import android.os.Build

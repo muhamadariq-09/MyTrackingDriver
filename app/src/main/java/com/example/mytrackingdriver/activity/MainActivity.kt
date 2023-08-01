@@ -1,4 +1,4 @@
-package com.example.mytrackingdriver
+package com.example.mytrackingdriver.activity
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -19,6 +19,9 @@ import android.widget.Toast
 import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.content.ContextCompat
+import com.example.mytrackingdriver.GeofenceBroadcastReceiver
+import com.example.mytrackingdriver.models.Location
+import com.example.mytrackingdriver.R
 import com.example.mytrackingdriver.databinding.ActivityMainBinding
 import com.google.android.gms.common.api.ResolvableApiException
 import com.google.android.gms.location.FusedLocationProviderClient
@@ -38,7 +41,6 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.CircleOptions
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.gms.maps.model.PolylineOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
