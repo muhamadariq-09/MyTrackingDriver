@@ -217,7 +217,7 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
                                 geofencingClient = LocationServices.getGeofencingClient(applicationContext)
 
                                 val geofence = Geofence.Builder()
-                                    .setRequestId("Users")
+                                    .setRequestId("penumpang")
                                     .setCircularRegion(
                                         lat,
                                         lng,
